@@ -1,6 +1,8 @@
 {
   "name": "portfolio_v2",
   "version": "0.1.0",
+  "description": "My portfolio site",
+  "homepage": "https://toastedthomas.github.io/portfolio_v2",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
