@@ -1,0 +1,13 @@
+// Importing Bootstrap's SCSS
+@import "~bootstrap/scss/bootstrap";
+
+// Custom variables
+$primary-color: #6a1b9a;
+$body-bg: #121212;
+$text-color: #ffffff;
+
+// Custom styles
+body {
+  background-color: $body-bg;
+  color: $text-color;
+}
