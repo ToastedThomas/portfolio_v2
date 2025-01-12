@@ -1,13 +1,21 @@
 // Importing Bootstrap's SCSS
 @import "~bootstrap/scss/bootstrap";
-
-// Custom variables
-$primary-color: #6a1b9a;
-$body-bg: #121212;
-$text-color: #ffffff;
+@import "./variables.scss";
 
 // Custom styles
 body {
   background-color: $body-bg;
   color: $text-color;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+
+  h2 {
+    flex-basis: 100%;
+    color: $primary-color;
+  }
 }

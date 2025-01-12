@@ -1,0 +1,35 @@
+@import "../styles/variables.scss";
+
+.projectTile {
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color .2s;
+
+  img {
+    width: 256px;
+    height: 256px;
+  }
+
+  hr {
+    width: 0%;
+    border: none;
+    margin: 10px auto;
+    border-top: 3px solid $primary-color;
+    transition: width .2s;
+  }
+
+  p {
+    color: $primary-color;
+    user-select: none;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background-color: $dark-grey;
+
+    hr {
+      width: 100%;
+    }
+  }
+}
