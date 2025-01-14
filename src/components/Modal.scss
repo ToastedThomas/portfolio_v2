@@ -1,0 +1,37 @@
+@import '../styles/variables.scss';
+
+.modalOverlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: $text-color;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  position: relative;
+}
+
+.modalClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font: {
+    size: 1.5em;
+    weight: bold;
+  }
+  border: none;
+  border-radius: 4px;
+  background-color: $primary-color;
+
+  &:active {
+    background-color: $secondary-color;
+  }
+}

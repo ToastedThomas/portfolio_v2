@@ -1,9 +1,8 @@
 import './ProjectTile.scss';
 
-const ProjectTile = ({name, image}) => {
-  console.log(image)
+const ProjectTile = ({name, image, onClick}) => {
   return (
-    <div className="projectTile">
+    <div className="projectTile" onClick={onClick}>
       <img src={image} alt={name} />
       <hr />
       <p>{name}</p>
