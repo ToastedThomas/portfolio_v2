@@ -6,13 +6,21 @@ import projects from "./data/ProjectsInfo";
 
 const App = () => {
   const [isModalOpen, setModalOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
 
-  const openModal = () => setModalOpen(true);
+  const openModal = (project) => {
+    setSelectedProject(project);
+    setModalOpen(true);
+  }
   const closeModal = () => setModalOpen(false);
 
   return (
     <div>
-      <Modal isOpen={isModalOpen} onClose={closeModal}/>
+      <Modal 
+        isOpen={isModalOpen} 
+        onClose={closeModal}
+        project={selectedProject}
+      />
       <h1>Welcome to My Portfolio!</h1>
       <div className="projectsContainer">
         <h2>Projects</h2>
@@ -21,7 +29,7 @@ const App = () => {
             key={index}
             name={project.name}
             image={project.image}
-            onClick={openModal}
+            onClick={() => openModal(project)}
           />
         ))}
       </div>

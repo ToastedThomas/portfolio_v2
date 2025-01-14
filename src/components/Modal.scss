@@ -13,10 +13,14 @@
 
 .modalContent {
   background: $text-color;
-  padding: 20px;
+  padding: 20px 55px 20px 20px;
   border-radius: 8px;
   width: 80%;
   position: relative;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+  color: black;
 }
 
 .modalClose {
@@ -33,5 +37,66 @@
 
   &:active {
     background-color: $secondary-color;
+  }
+}
+
+.projectTitle {
+  background-color: $light-grey;
+  padding: 5px;
+  border-radius: 8px;
+  height: fit-content;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.projectImages {
+  background-color: $light-grey;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 8px;
+  grid-column: 2;
+  grid-row: 3 span / 1;
+
+  img {
+    width: 250px;
+  }
+}
+
+.projectDesc {
+  background-color: $light-grey;
+  padding: 5px;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.projectTags {
+  background-color: $light-grey;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+  height: fit-content;
+}
+.tag {
+  background-color: $primary-color;
+  padding: 5px 10px;
+  border-radius: 8px;
+
+  p {
+    margin-bottom: 0;
   }
 }
