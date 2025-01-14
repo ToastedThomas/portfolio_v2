@@ -5,31 +5,31 @@ import Modal from "./components/Modal";
 const projects = [
   {
     name: "Pachinko Builder",
-    image: "/assets/images/tiles/pachinkoBuilder.png"
+    image: "/portfolio_v2/assets/images/tiles/pachinkoBuilder.png"
   },
   {
     name: "Better Exchange",
-    image: "/assets/images/tiles/betterExchange.png"
+    image: "/portfolio_v2/assets/images/tiles/betterExchange.png"
   },
   {
     name: "Crop Clicker",
-    image: "/assets/images/tiles/cropClicker.png"
+    image: "/portfolio_v2/assets/images/tiles/cropClicker.png"
   },
   {
     name: "Falling Sand",
-    image: "/assets/images/tiles/fallingSand.png"
+    image: "/portfolio_v2/assets/images/tiles/fallingSand.png"
   },
   {
     name: "Sample Survey",
-    image: "/assets/images/tiles/sampleSurvey.png"
+    image: "/portfolio_v2/assets/images/tiles/sampleSurvey.png"
   },
   {
     name: "Dice Roller",
-    image: "/assets/images/tiles/diceRoller.png"
+    image: "/portfolio_v2/assets/images/tiles/diceRoller.png"
   },
   {
     name: "PokeInfo",
-    image: "/assets/images/tiles/pokeInfo.png"
+    image: "/portfolio_v2/assets/images/tiles/pokeInfo.png"
   },
 ]
 
