@@ -1,6 +1,6 @@
 const art = [
   {
-    image: "/portfolio_v2/assets/images/art/blenderDonut.png",
+    image: "/portfolio_v2/assets/images/art/blenderDonut.jpg",
     description: "A render of a donut and coffee using Blender."
   },
   {
