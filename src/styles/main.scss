@@ -19,3 +19,7 @@ body {
     color: $primary-color;
   }
 }
+
+.artContainer {
+  @extend .projectsContainer;
+}

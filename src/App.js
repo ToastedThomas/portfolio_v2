@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+
 import ProjectTile from "./components/ProjectTile";
 import Modal from "./components/Modal";
+import ArtTile from "./components/ArtTile";
+
 import projects from "./data/ProjectsInfo";
+import art from "./data/ArtInfo";
 
 
 const App = () => {
@@ -30,6 +34,15 @@ const App = () => {
             name={project.name}
             image={project.image}
             onClick={() => openModal(project)}
+          />
+        ))}
+      </div>
+      <div className="artContainer">
+        <h2>Art</h2>
+        {art.map((piece, index) => (
+          <ArtTile 
+            key={index}
+            image={piece.image}
           />
         ))}
       </div>

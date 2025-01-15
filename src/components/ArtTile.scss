@@ -1,0 +1,19 @@
+@import "../styles/variables.scss";
+
+.artTile {
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 300px;
+  width: 25%;
+  height: fit-content;
+  transition: background-color .2s;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: $dark-grey;
+  }
+}
