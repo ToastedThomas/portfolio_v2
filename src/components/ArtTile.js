@@ -1,9 +1,9 @@
 import "./ArtTile.scss";
 
-const ArtTile = ({image, onClick}) => {
+const ArtTile = ({image, alt, onClick}) => {
   return (
     <div className="artTile" onClick={onClick}>
-      <img src={image} />
+      <img src={image} alt={alt}/>
 
     </div>
   )

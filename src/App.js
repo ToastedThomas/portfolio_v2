@@ -59,6 +59,7 @@ const App = () => {
           <ArtTile 
             key={index}
             image={piece.image}
+            alt={piece.description}
             onClick={() => openArtModal(piece)}
           />
         ))}

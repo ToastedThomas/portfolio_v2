@@ -8,7 +8,7 @@ const ArtModal = ({ isOpen, onClose, art }) => {
       <div className="modalContent">
         <button className="modalClose" onClick={onClose}>&times;</button>
         <div className="artwork">
-          <img src={art.image} />
+          <img src={art.image}  alt={art.description}/>
         </div>
         <div className="description">
           <p>{art.description}</p>
