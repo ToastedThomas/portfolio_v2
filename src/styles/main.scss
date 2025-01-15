@@ -13,6 +13,7 @@ body {
   flex-wrap: wrap;
   gap: 10px;
   padding: 20px;
+  user-select: none;
 
   h2 {
     flex-basis: 100%;
@@ -22,4 +23,31 @@ body {
 
 .artContainer {
   @extend .projectsContainer;
+}
+
+.linksContainer {
+  @extend .projectsContainer;
+
+  a {
+    color: $primary-color;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color .2s;
+    text-decoration: none;
+    
+
+    i {
+      font-size: 2em;
+    }
+
+    p {
+      display: inline;
+      padding-left: 10px;
+      font-size: 1.5em;
+    }
+
+    &:hover {
+      background-color: $dark-grey;
+    }
+  }
 }

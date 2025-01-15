@@ -64,6 +64,17 @@ const App = () => {
           />
         ))}
       </div>
+      <div className="linksContainer">
+        <h2>External Links</h2>
+        <a href="https://www.linkedin.com/in/blake-helser-761b21243/" target="_blank" rel="noreferrer">
+          <i className="fa-brands fa-linkedin" />
+          <p>LinkedIn</p>
+        </a>
+        <a href="https://github.com/ToastedThomas" target="_blank" rel="noreferrer">
+          <i className="fa-brands fa-square-github" />
+          <p>GitHub</p>
+        </a>
+      </div>
     </div>
   );
 }
