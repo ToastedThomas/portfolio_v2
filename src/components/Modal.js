@@ -8,7 +8,7 @@ const Modal = ({ isOpen, onClose, project }) => {
       <div className="modalContent">
         <button className="modalClose" onClick={onClose}>&times;</button>
         <div className="projectTitle">
-          <a href={project.link} target="_blank">
+          <a href={project.link} target="_blank" rel="noreferrer">
             <h2>{project.name}</h2><i className="fa-solid fa-arrow-up-right-from-square" />
           </a>
         </div>
