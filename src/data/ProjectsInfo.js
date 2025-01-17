@@ -1,5 +1,19 @@
 const projects = [
   {
+    name: "React Markdown Previewer",
+    image: "/portfolio_v2/assets/images/tiles/markdownPreviewer.jpg",
+    description: "A React app that allows text input from the user and calls upon marked.js to parse the text to render as markdown within the previewer element. Created for the Front End Development Libraries certification from freeCodeCamp.",
+    tags: ["Markdown", "React"],
+    link: "https://toastedthomas.github.io/react-markdown-previewer/"
+  },
+  {
+    name: "Random Quote Machine",
+    image: "/portfolio_v2/assets/images/tiles/quoteMachine.jpg",
+    description: "A React app that grabs a list of programming quotes from an API and caches them to the browser for quicker loading, then the user can click the button to display a random quote from the array and change element colors.",
+    tags: ["React", "APIs"],
+    link: "https://toastedthomas.github.io/random-quote-machine/"
+  },
+  {
     name: "Pachinko Builder",
     image: "/portfolio_v2/assets/images/tiles/pachinkoBuilder.jpg",
     description: "This was a project I submitted for the 'Made with Defold 2023' game jam. This jam lasted seven days in total, and the rules stated that submissions must be made with the Defold game engine. This was a challenging experience for me because I had never used Defold before that point, nor did I have any knowledge about Lua, which is what Defold used as its programming language.",
