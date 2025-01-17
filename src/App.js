@@ -55,14 +55,16 @@ const App = () => {
       </div>
       <div className="artContainer">
         <h2>Art</h2>
-        {art.map((piece, index) => (
-          <ArtTile 
-            key={index}
-            image={piece.image}
-            alt={piece.description}
-            onClick={() => openArtModal(piece)}
-          />
-        ))}
+        <div className="masonGrid">
+          {art.map((piece, index) => (
+            <ArtTile 
+              key={index}
+              image={piece.image}
+              alt={piece.description}
+              onClick={() => openArtModal(piece)}
+            />
+          ))}
+        </div>
       </div>
       <div className="linksContainer">
         <h2>External Links</h2>

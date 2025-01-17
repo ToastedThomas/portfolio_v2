@@ -1,6 +1,6 @@
 @import "../styles/variables.scss";
 
-.modalOverlay {
+.artModalOverlay {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -11,12 +11,12 @@
   justify-content: center;
 }
 
-.modalContent {
+.artModalContent {
   background: $text-color;
   padding: 20px 55px 20px 20px;
   border-radius: 8px;
-  width: 80%;
-  height: 80%;
+  width: fit-content;
+  height: fit-content;
   position: relative;
   display: grid;
   gap: 10px;
